@@ -24,9 +24,6 @@ public class Main {
 				//Hundreds
 				int hundreds = (int)(x / 100);
 				double z = x - (hundreds*100);
-				if (hundreds <= 0) {;
-					hundreds = remove;
-				}
 				
 				//Fifties
 				int fifties = (int)(z/50);

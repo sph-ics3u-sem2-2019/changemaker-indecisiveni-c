@@ -36,7 +36,7 @@ public class NicoleMain {
 					System.setErr(null);
 				}
 					else {
-						System.out.println(x+" dollars is equal to "+fifties+" 100 dollar bill(s).");
+						System.out.println(x+" dollars is equal to "+fifties+" 50 dollar bill(s).");
 					}
 				//Twenties
 				double n = z - (fifties*50);
@@ -45,7 +45,7 @@ public class NicoleMain {
 					System.setErr(null);
 				}
 					else {
-						System.out.println(x+" dollars is equal to "+twenties+" 100 dollar bill(s).");
+						System.out.println(x+" dollars is equal to "+twenties+" 20 dollar bill(s).");
 					}
 				//Tens
 				double c = n - (twenties*20);
@@ -54,7 +54,7 @@ public class NicoleMain {
 					System.setErr(null);
 				}
 					else {
-						System.out.println(x+" dollars is equal to "+tens+" 100 dollar bill(s).");
+						System.out.println(x+" dollars is equal to "+tens+" 10 dollar bill(s).");
 					}
 				//Fives
 				double w = c - (tens*10);
@@ -63,7 +63,7 @@ public class NicoleMain {
 					System.setErr(null);
 				}
 					else {
-						System.out.println(x+" dollars is equal to "+fives+" 100 dollar bill(s).");
+						System.out.println(x+" dollars is equal to "+fives+" 5 dollar bill(s).");
 					}
 				//Toonies
 				double v = w - (fives*5);
@@ -72,7 +72,7 @@ public class NicoleMain {
 					System.setErr(null);
 				}
 					else {
-						System.out.println(x+" dollars is equal to "+toonies+" 100 dollar bill(s).");
+						System.out.println(x+" dollars is equal to "+toonies+" toonie(s).");
 					}
 				//Loonies
 				double o = v - (toonies*2);
@@ -81,7 +81,7 @@ public class NicoleMain {
 					System.setErr(null);
 				}
 					else {
-						System.out.println(x+" dollars is equal to "+loonies+" 100 dollar bill(s).");
+						System.out.println(x+" dollars is equal to "+loonies+" loonie(s).");
 					}
 				//Quarters
 				double u = o - (loonies*1);
@@ -90,7 +90,7 @@ public class NicoleMain {
 					System.setErr(null);
 				}
 					else {
-						System.out.println(x+" dollars is equal to "+quarters+" 100 dollar bill(s).");
+						System.out.println(x+" dollars is equal to "+quarters+" quarter(s).");
 					}
 				//Dimes
 				double d = u - (quarters*0.25);
@@ -99,7 +99,7 @@ public class NicoleMain {
 					System.setErr(null);
 				}
 					else {
-						System.out.println(x+" dollars is equal to "+dimes+" 100 dollar bill(s).");
+						System.out.println(x+" dollars is equal to "+dimes+" dime(s).");
 					}
 				//Nickels
 				double s = d - (dimes*0.1);
@@ -108,7 +108,7 @@ public class NicoleMain {
 					System.setErr(null);
 				}
 					else {
-						System.out.println(x+" dollars is equal to "+nickel+" 100 dollar bill(s).");
+						System.out.println(x+" dollars is equal to "+nickel+" nickel(s).");
 					}
 
 				/*double change = payment - cost;
