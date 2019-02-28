@@ -21,59 +21,66 @@ public class Main {
 		
 		double x = payment - cost;
 		System.out.println("Your change is "+x);
-				//Hundreds
+				
+		//Hundreds
+	
 				int hundreds = (int)(x / 100);
-				double z = x - (hundreds*100);
-				if (hundreds <= 0) {;
-					hundreds = remove;
-				}
+				if (hundreds != 0) {
+				System.out.println(x+" dollars is equal to "+hundreds+" 100 dollar bill(s).");}
 				
 				//Fifties
+				double z = x - (hundreds*100);
 				int fifties = (int)(z/50);
-		
+				if (fifties != 0) { 
+					System.out.println(x+" dollars is equal to "+fifties+" 50 dollar bill(s)."); } 
+				
 				//Twenties
 				double n = z - (fifties*50);
 				int twenties = (int)(n/20);
-				
+				if (twenties != 0) {
+					System.out.println(x+" dollars is equal to "+twenties+" 20 dollar bill(s).");}
+                                                          
 				//Tens
 				double c = n - (twenties*20);
 				int tens = (int)(c/10);
+				if (tens != 0) { 
+					System.out.println(x+" dollars is equal to "+tens+" 10 dollar bill(s)."); }
 				
 				//Fives
 				double w = c - (tens*10);
 				int fives = (int)(w/5);
-		
+				if (fives != 0) {
+					System.out.println(x+" dollars is equal to "+fives+" 5 dollar bill(s).");}
+				
+				
 				//Toonies
 				double v = w - (fives*5);
 				int toonies = (int)(v/2);
-
+				if (toonies != 0) {
+					System.out.println(x+" dollars is equal to "+toonies+" toonie(s).");}
+				
 				//Loonies
 				double o = v - (toonies*2);
 				int loonies = (int)(o/1);
-				
+				if (loonies != 0) {
+					System.out.println(x+" dollars is equal to "+loonies+" loonie(s)."); }
 				//Quarters
 				double u = o - (loonies*1);
 				int quarters = (int)(u/0.25);
-
+				if (quarters != 0) {
+					System.out.println(x+" dollars is equal to "+quarters+" quarter(s)."); }
 				//Dimes
 				double d = u - (quarters*0.25);
 				int dimes = (int)(d/0.1);
-	
+				if (dimes != 0) {
+					System.out.println(x+" dollars is equal to "+dimes+" dime(s)."); }
 				//Nickels
 				double s = d - (dimes*0.1);
-				int nickel = (int)(s/0.1);
-	
+				int nickel = (int)(s/0.1); 
+				if (hundreds != 0) { 
+					System.out.println(x+" dollars is equal to "+nickel+" nickel(s)."); 
+				}
 				
-				System.out.println(x+" dollars is equal to "+hundreds+" 100 dollar bill(s).");
-				System.out.println(x+" dollars is equal to "+fifties+" 50 dollar bill(s).");
-				System.out.println(x+" dollars is equal to "+twenties+" 20 dollar bill(s).");
-				System.out.println(x+" dollars is equal to "+tens+" 10 dollar bill(s)."); 
-				System.out.println(x+" dollars is equal to "+fives+" 5 dollar bill(s).");
-				System.out.println(x+" dollars is equal to "+toonies+" toonie(s).");
-				System.out.println(x+" dollars is equal to "+loonies+" loonie(s).");
-				System.out.println(x+" dollars is equal to "+quarters+" quarter(s)."); 
-				System.out.println(x+" dollars is equal to "+dimes+" dime(s).");
-				System.out.println(x+" dollars is equal to "+nickel+" nickel(s).");
 				
 				/*double change = payment - cost;
 				System.out.println("Your change is "+change);
